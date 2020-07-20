@@ -80,9 +80,14 @@ def adding_matz
       :dennis_ritchie => {
         :known_for => "Unix",
         :languages => ["C"]
+      },
+      :yukihiro_matsumoto => {
+        :known_for => "ruby",
+        :languages => ["C"]
       }
+      
     }
-
+print programmer_hash
 end
 
 def changing_alan
